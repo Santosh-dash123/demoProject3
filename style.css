@@ -1,0 +1,236 @@
+*
+{
+    margin : 0px ;
+    padding: 0px ;
+    box-sizing: border-box ;
+    font-family: 'Courier New', Courier, monospace ;
+}
+body
+{
+    background-color: rgb(46, 43, 43) !important  ;
+    height: auto ;
+    width : 98% ;
+}
+h1
+{
+    color : rgb(45, 85, 195) ;
+    top : 20px ;
+    left : 20px ;
+    position: relative;
+}
+h1:hover
+{
+    cursor: pointer ;
+}
+.first
+{
+    text-transform: uppercase ;
+    color : brown ;
+
+}
+.navbar-nav 
+{
+    margin-left : 100px !important ;
+    margin-top : 20px !important ;
+}
+ul li
+{
+    padding: 10px !important;
+}
+ul li a
+{
+    color : red !important ;
+    font-size : 18px ;
+    text-transform: uppercase ;
+}
+.navbar
+{
+    background-color: rgb(46, 43, 43) !important  ;
+    border-radius: 3px !important ;
+}
+.col
+{
+    top : 100px !important ;
+    position: relative !important ;
+}
+h2
+{
+    color : white ;
+    font-size : 37px ;
+    margin-top : 100px ;
+    margin-left : 450px ;
+}
+h2:hover
+{
+    color : aqua ;
+    cursor: pointer ;
+}
+h3
+{
+    margin-left : 100px ;
+    font-size : 30px ;
+}
+h4
+{
+    margin-left : 350px ;
+    font-size : 30px ;
+    color : white ;
+}
+h4:hover
+{
+    color : aqua ;
+    cursor : pointer ;
+}
+p
+{
+    color : white ;
+    margin-left : 450px ;
+    font-size : 20px ;
+}
+.button1
+{
+    color : white ;
+    background-color : red ;
+    border : none ;
+    outline : none ;
+    margin-left : 500px ;
+    height : 50px ;
+    width : 140px ;
+    border-radius : 50% ;
+    text-transform : uppercase ;
+}
+.first-head
+{
+    color : white ;
+    font-size : 40px ;
+}
+.first-para
+{
+    color : white ;
+    margin-left : 20px ;
+    margin-top : 40px ;
+}
+.list1
+{
+    color : white ;
+    margin-top : 15px ;
+    margin-left : 40px ;
+}
+.photo1 img
+{
+    height : 600px ;
+    width : 102% ;
+}
+.color
+{
+    background-color : rgba(250, 4, 4, 0.5) ;
+    height : 400px ;
+    width : 101%  ;
+    top : -400px ;
+    position: relative ;
+    margin-left : 0.5px ;
+}
+.head2 
+{
+    color : white ;
+    left : -400px ;
+    top : -100px ;
+    position: relative ;
+}
+.para2
+{
+    color : white ;
+    left : -380px ;
+    top : -120px ;
+    position : relative ;
+}
+.footer
+{
+    top : -350px ;
+    position: relative ;
+    margin-left : 300px ;
+    font-size : 130px ;
+    font-weight : bold ;
+}
+.header1
+{
+    color : white ;
+    top : -350px ;
+    position: relative ;
+}
+.para6
+{
+    color : rgb(0, 255, 55) ;
+    top : -350px ;
+    left : -400px ;
+    position: relative ;
+    font-size : 25px ;
+}
+@media (max-width : 800px )
+{
+    h2
+    {
+        margin-left : 150px ;
+    }
+    .col-sm-4 img
+    {
+        margin-left : 100px ;
+    }
+    h3
+    {
+        margin-left : 200px ;
+    }
+    h4
+    {
+        margin-left : 200px ;
+    }
+    p
+    {
+        margin-left : 175px ;
+    }
+    .button1
+    {
+        margin-left : 220px ;
+    }
+    .number1
+    {
+        margin-left : 200px ;
+    }
+    .photo1 img
+    {
+        width : 1000px ;
+        height : 300vh ;
+    }
+    .color
+    {
+        width : 1000px ;
+        height : 1200px ;
+        top : -1200px ;
+    }
+    .head2
+    {
+        left : -100px ;
+        position: relative ;
+    }
+    .para2
+    {
+        left : -70px ;
+        font-size : 30px ;
+        position: relative ;
+    }
+    .footer
+    {
+        left : -200px ;
+        position: relative;
+    }
+    .header1
+    {
+        left : 450px ;
+        position: relative ;
+    }
+    .para6
+    {
+        left : 300px ;
+        position: relative ;
+    }
+}
